@@ -24,3 +24,17 @@ VALUES
 ("Peacock", "Mrs", "F", 35, "Blue"); 
 
 SELECT * FROM Suspects; 
+
+-- Searching from the database created >> 
+
+-- Display all female characters' names 
+SELECT FullName 
+FROM Suspects 
+WHERE Gender = "F"; 
+
+-- Display all female characters with an age over 40 
+SELECT FullName 
+FROM Suspects 
+WHERE Gender = "F" 
+AND Age > 40;
+
