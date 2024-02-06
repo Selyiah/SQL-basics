@@ -25,7 +25,7 @@ VALUES
 
 SELECT * FROM Suspects; 
 
--- Searching from the database created >> 
+-- Searching from the database created (seperate file) >> 
 
 -- Display all female characters' names 
 SELECT FullName 
